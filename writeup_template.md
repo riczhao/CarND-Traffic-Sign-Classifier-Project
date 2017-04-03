@@ -184,6 +184,7 @@ For the first image, the model is very sure that this is a right curve sign (pro
 
 
 For the second image, it's pretty sure (99.9%) to be wild animal crossing. 
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 9.99985933e-01         			| wild animal crossing  									| 
@@ -191,11 +192,13 @@ For the second image, it's pretty sure (99.9%) to be wild animal crossing.
 | 6.28102959e-10					| speedlimit 20km/h											|
 
 For the third image, it's also pretty sure (100%) to be right turn ahead.
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 1.00000000e+00         			| right turn ahead  									| 
 
 For the fourth image, it also detected correctly.
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 8.27380836e-01         			| keep left  									| 
@@ -203,6 +206,7 @@ For the fourth image, it also detected correctly.
 | 9.42079970e-17					| speedlimit 50km/h											|
 
 For the last image, it detected 60km/h as 50km/h. It might because there were too many 50km/h signs.
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 9.99996185e-01         			| speedlimit 50km/h  									| 
